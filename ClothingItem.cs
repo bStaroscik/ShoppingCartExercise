@@ -17,15 +17,15 @@ namespace ShoppingCartExercise
             Cost = cost;
         }
 
-        public string getName()
-        {
-            return Name;
-        }
+        //public string getName()
+        //{
+        //    return Name;
+        //}
 
-        public double getCost()
-        {
-            return Cost;
-        }
+        //public double getCost()
+        //{
+        //    return Cost;
+        //}
 
         public void accept(IShoppingCartVisitor visitor)
         {
